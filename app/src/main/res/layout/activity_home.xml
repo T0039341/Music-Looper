@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+     >
+
+<TextView
+    android:id="@+id/username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25sp"
+    android:layout_marginLeft="15dp"
+
+
+    />
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/username"
+        android:id="@+id/piano"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:onClick="onClickPiano"
+        android:src="@drawable/piano" />
+
+    <ImageButton
+        android:id="@+id/guitar"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/piano"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:onClick="onClickGuitar"
+        android:src="@drawable/guitar_new" />
+
+    <ImageButton
+        android:id="@+id/drum"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/guitar"
+        android:background="@android:color/transparent"
+        android:onClick="onClickdrum"
+        android:src="@drawable/drum_new" />
+    
+    
+</RelativeLayout>

@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "1073985572530",
+    "firebase_url": "https://musicapp-b2783.firebaseio.com",
+    "project_id": "musicapp-b2783",
+    "storage_bucket": "musicapp-b2783.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073985572530:android:56e26ba0e85aeabc",
+        "android_client_info": {
+          "package_name": "org.music.instrument"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073985572530-qcdg7em7gne4ipo1nuarp6iv70mo3oq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+     
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

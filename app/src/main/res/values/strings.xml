@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Music App</string>
+    <string name="toast_recording_start">Recording started</string>
+    <string name="default_file_name">My Recording</string>
+    <string name="toast_recording_finish">Recording saved to</string>
+    <string name="option1">Settings</string>
+    <string name="pref_rows_title">Rows</string>
+    <string name="pref_rows_lower_octave_in_upper_row">Lower octave in upper row</string>
+    <string name="pref_rows_higher_octave_in_upper_row">Higher octave in upper row</string>
+    <string name="pref_rows_lower_octave_in_upper_row_value">lower up</string>
+    <string name="pref_rows_higher_octave_in_upper_row_value">higher up</string>
+    <string name="pref_rows_default_value">@string/pref_rows_lower_octave_in_upper_row_value</string>
+    <string name="pref_damper_title">Damper</string>
+    <string name="pref_damper_dampen">Stop sound when key is released</string>
+    <string name="pref_damper_sustain">Let the note ring after key is released</string>
+    <string name="pref_damper_dampen_value">dampen</string>
+    <string name="pref_damper_sustain_value">sustain</string>
+    <string name="pref_damper_default_value">@string/pref_damper_sustain_value</string>
+    <string name="pref_octaves_title">Octaves</string>
+    <string name="pref_octaves_34">Octaves 3 &amp; 4</string>
+    <string name="pref_octaves_45">Octaves 4 &amp; 5</string>
+    <string name="pref_octaves_35">Octaves 3 &amp; 5</string>
+    <string name="pref_octaves_34_value">34</string>
+    <string name="pref_octaves_45_value">45</string>
+    <string name="pref_octaves_35_value">35</string>
+    <string name="pref_octaves_default_value">@string/pref_octaves_34_value</string>
+    <string name="pref_orient_title">Orientation</string>
+    <string name="pref_orient_landscape">Landscape</string>
+    <string name="pref_orient_portrait">Portrait</string>
+    <string name="pref_orient_landscape_value">landscape</string>
+    <string name="pref_orient_portrait_value">portrait</string>
+    <string name="pref_orient_default_value">@string/pref_orient_landscape_value</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="title_activity_saved_recording">SavedRecordingActivity</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_title_delete">Confirm Delete...</string>
+    <string name="dialog_text_delete">Are you sure you would like to delete this file?</string>
+    <string name="dialog_title_options">Options</string>
+
+    <string name="dialog_file_share">Share File</string>
+    <string name="dialog_file_delete">Delete File</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_action_yes">Yes</string>
+    <string name="dialog_action_no">No</string>
+
+    <string name="send_to">Send to</string>
+
+    <!-- Preferences -->
+    <string name="s1"></string>
+    <string name="s2"></string>
+    <string name="s3"></string>
+    <string name="s4"></string>
+    <string name="s5"></string>
+    <string name="s6"></string>
+    <!-- Toasts -->
+    <string name="toast_file_delete">%1$s successfully deleted</string>
+    <string name="no_data_available">No Data  Available!!!</string>
+
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+</resources>

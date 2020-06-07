@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/unnamed">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:weightSum="1">
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/btnRecord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:layout_weight="0.04"
+            android:src="@drawable/ic_mic_white_36dp"
+            app:fab_colorNormal="@color/primary" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="498dp"
+            android:id="@+id/s1"
+            android:layout_weight="0.04"
+            android:layout_marginLeft="9dp"
+            android:text="@string/s1"
+            android:backgroundTint="#868282"
+            android:onClick="onClick" />
+
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:id="@+id/s2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="67dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/s2"
+        android:backgroundTint="#868282"
+        android:onClick="onClick" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:id="@+id/s3"
+        android:layout_marginLeft="44dp"
+        android:layout_toRightOf="@+id/s2"
+        android:layout_alignParentBottom="true"
+        android:text="@string/s3"
+        android:backgroundTint="#868282"
+        android:onClick="onClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:id="@+id/s4"
+        android:layout_marginLeft="46dp"
+        android:layout_toRightOf="@+id/s3"
+        android:layout_alignParentBottom="true"
+        android:text="@string/s4"
+        android:backgroundTint="#868282"
+        android:onClick="onClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:id="@+id/s5"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/s4"
+        android:layout_toEndOf="@+id/s4"
+        android:text="@string/s5"
+        android:backgroundTint="#868282"
+        android:onClick="onClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:id="@+id/s6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="7dp"
+        android:text="@string/s6"
+        android:backgroundTint="#868282"
+        android:onClick="onClick" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.music.instrument.activity.PianoActivity" >
+
+    <item 
+        android:id="@+id/option1"
+        android:title="@string/option1"
+        />
+
+    <item
+        android:id="@+id/recordings"
+        app:showAsAction="never"
+        android:title="Saved Recordings"/>
+
+    <item
+        android:id="@+id/logout"
+        app:showAsAction="never"
+        android:title="Logout"/>
+
+</menu>
